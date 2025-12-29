@@ -1,82 +1,23 @@
-<hr>
-<h1 align="center">
-Hotel Booking Management System
-</h1>
+# Hotel Management System
 
-Hotel Booking Management System in C++ 
+A comprehensive **C++** application developed to simplify the daily operations of a hotel. This system provides a digital solution for managing room availability, guest check-ins/check-outs, and automated billing through a menu-driven interface.
 
+## 🌟 Key Features
+* **Room Booking & Allotment**: Easily check room availability and assign rooms to guests.
+* **Guest Management**: Register guest details, including contact information and stay duration.
+* **Search Functionality**: Quickly find guest records and room status using specific IDs or names.
+* **Automated Billing**: Generates precise invoices based on room category and duration of stay.
+* **Data Persistence**: Implements **File Handling** to store guest records in binary files, ensuring data is saved securely.
+* **Record Modification**: Allows staff to update guest details or check out customers with automatic record updates.
 
+## 🛠️ Technical Implementation
+This project utilizes several core C++ concepts:
+* **Classes & Objects**: To model rooms and guest profiles for clean, modular code.
+* **File I/O (`fstream`)**: For reading and writing persistent records to `.dat` or `.txt` files.
+* **Switch-Case Logic**: To create a seamless, user-friendly navigation menu.
+* **Input Validation**: Ensures phone numbers and room IDs are entered in the correct format.
 
-![C__Users_Admin_Desktop_main3 exe](https://user-images.githubusercontent.com/79866006/178736172-c6bd256a-61f7-4480-abc9-449384177760.png)
-
-   
-   
-
-<p>
-<br><br>
-<b>Simple Hotel Management System</b> is based on the concept of managing the hotel room’s bookings and payments. In this system, there are no login features. The user can manage room bookings, customer records, view total allotted rooms, edit records, and make payments. This mini project contains limited but essential features.
-
-</p>
-
-<h2 align="center">
-
-Features of this C++ language based project :
-</h2>
-
-<p>
-
-- Book Rooms
-- View Customer Records
-- View rooms allotted
-- Edit Records
-- Delete Records
-- Make Payments
-
-</p>
-
-<h2>Screenshots :</h2>
-
-
-
-
-![C__Users_Admin_Desktop_main exe](https://user-images.githubusercontent.com/79866006/178735392-b2ebb426-4c1a-4454-a60b-ce57a5728873.png)
-
-
-
-
-
-
-![C__Users_Admin_Desktop_main2 exe](https://user-images.githubusercontent.com/79866006/178735893-58009dca-7ff1-4c7d-a579-fe1ae27188df.png)
-
-
-
-
-
-
-
-
-<h2>
-INFO
-</h2>
-<footer>
-SIMPLE HOTEL MANAGEMENT SYSTEM IN C++
-
-<br>
-DEVELOPED BY The Young Programmer (TYP)
-
-<br><hr>
-***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO PULL AN ISSUE *****  
-
-<hr>
-***** LEAVE A COMMENT IF YOU LOVE MY WORK *****
-
-<hr>
-***** PLS FORK THIS PROJECT FOR MORE PROJECT  *****
-
-</footer>
-
-
-
-
-
-
+## 🚀 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Morris-Munene/Hotel-Management-System.git](https://github.com/Morris-Munene/Hotel-Management-System.git)
